@@ -8,18 +8,68 @@
 
 /*Todo Custom Properties */
 
-/* :root {} */
+:root {
+    --primary-color: #FF9614
+}
 
 
 /*# Generics */
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F6F5F3;
+}
 
+img,
+iframe {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Nerko One', cursive;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #4e3969;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.fas {
+    color: var(--primary-color);
+}
+
+.fa-ul li {
+    margin: 10px 0;
+}
 
 /** Utils */
+
+
 
 /*^ Layout */
 
 /*| ROW */
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -93,16 +143,86 @@
 
 
 /*| CONTAINER */
+
 .container {
-    max-width: 900px;
+    max-width: 768px;
     margin: 0 auto;
+    padding: 15px;
 }
 
+.col {
+    width: 100%;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+}
 
 /** header  */
 
 
 /** main */
 
+.category {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #4e3969;
+}
+
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.rate a {
+    background-color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.info {
+    background-color: #F6F5F3;
+    padding: 0 20px;
+    margin: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+}
+
+.info-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 15px 0;
+}
+
+.info-bottom {
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+#calories {
+    color: #fff;
+    background-color: #7C69A4;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#info {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
 
 /** footer */
+
+footer {
+    background-color: #7C69A4;
+}
