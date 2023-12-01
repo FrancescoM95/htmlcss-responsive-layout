@@ -28,6 +28,7 @@ iframe {
 
 iframe {
     border: none;
+    width: 100%;
 }
 
 a {
@@ -52,7 +53,7 @@ h2 {
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 15px 0;
+    padding: 50px 0 15px 0;
 }
 
 h3 {
@@ -173,7 +174,7 @@ address {
 /*| CONTAINER */
 
 .container {
-    max-width: 768px;
+    max-width: 760px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -182,15 +183,12 @@ address {
     width: 100%;
 }
 
-.card {
-    background-color: #fff;
-    padding: 20px;
-}
-
 /** header  */
 
 
 /** main */
+
+/*# SECTION INTRO */
 
 .category {
     font-weight: 300;
@@ -205,6 +203,12 @@ address {
     font-size: 1.2rem;
 }
 
+.rate {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
 .rate a {
     background-color: var(--primary-color);
     font-weight: 700;
@@ -215,7 +219,20 @@ address {
     margin-left: 5px;
 }
 
+.rate span {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/*# CARD */
+
 .card {
+    background-color: #fff;
+    padding: 20px;
     box-shadow: 0 5px 10px lightgrey;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -262,7 +279,7 @@ address {
 .social {
     display: flex;
     justify-content: space-around;
-    margin: 40px 0;
+    margin: 40px 0 60px 0;
 }
 
 .social>li>a {
@@ -270,10 +287,6 @@ address {
     padding: 10px 15px;
     border-radius: 20px;
     box-shadow: 0 5px 10px lightgrey;
-}
-
-.banner-ad {
-    display: none;
 }
 
 .fa-facebook {
@@ -296,6 +309,8 @@ address {
     color: #FF0000;
 }
 
+
+
 /*# PRESENTAZIONE */
 
 #content picture {
@@ -309,7 +324,8 @@ address {
 
 #content p {
     line-height: 2rem;
-    margin: 15px 0;
+    margin-top: -10px;
+    margin-bottom: 50px;
 }
 
 /** footer */
