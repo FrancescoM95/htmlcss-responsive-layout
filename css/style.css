@@ -1,0 +1,108 @@
+/*Todo CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Todo Custom Properties */
+
+/* :root {} */
+
+
+/*# Generics */
+
+
+
+/** Utils */
+
+/*^ Layout */
+
+/*| ROW */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.cols-2>.col {
+    flex-basis: calc(100% / 2);
+}
+
+.row.cols-3>.col {
+    flex-basis: calc(100% / 3);
+}
+
+.row.cols-4>.col {
+    flex-basis: calc(100% / 4);
+}
+
+.row.cols-5>.col {
+    flex-basis: calc(100% / 5);
+}
+
+.row.cols-6>.col {
+    flex-basis: calc(100% / 6);
+}
+
+/*| GATTER */
+/* 10 */
+.row.g-10 {
+    margin: 0 -10px;
+}
+
+.row.g-10>.col {
+    padding: 0 10px;
+}
+
+/* 20 */
+.row.g-20 {
+    margin: 0 -20px;
+}
+
+.row.g-20>.col {
+    padding: 0 20px;
+}
+
+/* 30 */
+.row.g-30 {
+    margin: 0 -30px;
+}
+
+.row.g-30>.col {
+    padding: 0 30px;
+}
+
+/* 40 */
+.row.g-40 {
+    margin: 0 -40px;
+}
+
+.row.g-40>.col {
+    padding: 0 40px;
+}
+
+/* 50 */
+.row.g-50 {
+    margin: 0 -50px;
+}
+
+.row.g-50>.col {
+    padding: 0 50px;
+}
+
+
+/*| CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/** header  */
+
+
+/** main */
+
+
+/** footer */
