@@ -28,8 +28,10 @@ Dovremo riprodurre la nostra versione di Giallo Zafferano seguendo gli screensho
     - Il video e le altre informazioni della ricetta si dispongono uno accanto all'altro
     - Compaiono i nomi delle piattaforme social
     - NEl footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti
-    Bonus
-    L'ideale sarebbe che se ci fosse spazio, l'immagine nella descrizione della ricetta venisse circondata dal testo anche su mobile ma solo se c'è  spazio sufficiente
+    
+## Bonus
+
+L'ideale sarebbe che se ci fosse spazio, l'immagine nella descrizione della ricetta venisse circondata dal testo anche su mobile ma solo se c'è  spazio sufficiente
 
 ## INFO
 
