@@ -279,7 +279,7 @@ address {
 .social {
     display: flex;
     justify-content: space-around;
-    margin: 40px 0 60px 0;
+    margin-top: 40px;
 }
 
 .social>li>a {
@@ -287,6 +287,18 @@ address {
     padding: 10px 15px;
     border-radius: 20px;
     box-shadow: 0 5px 10px lightgrey;
+}
+
+.banner-ad img {
+    margin-top: 30px;
+}
+
+.fab-text {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    display: none;
 }
 
 .fa-facebook {
@@ -324,7 +336,6 @@ address {
 
 #content p {
     line-height: 2rem;
-    margin-top: -10px;
     margin-bottom: 50px;
 }
 
