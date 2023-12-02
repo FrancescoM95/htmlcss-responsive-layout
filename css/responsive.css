@@ -80,10 +80,6 @@
         row-gap: 0;
     }
 
-    .social .fab::after {
-        content: "";
-    }
-
     .fab-text {
         display: inline;
     }
