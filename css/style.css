@@ -42,6 +42,7 @@ ul {
 
 h1 {
     font-family: 'Nerko One', cursive;
+    font-size: 3rem;
     font-weight: 500;
     color: var(--primary-color);
     text-transform: uppercase;
@@ -320,8 +321,6 @@ address {
 .fa-youtube {
     color: #FF0000;
 }
-
-
 
 /*# PRESENTAZIONE */
 

@@ -16,6 +16,10 @@
         text-align: start;
     }
 
+    h1 {
+        font-size: 4rem;
+    }
+
     .container {
         max-width: 900px;
         padding: 50px;
