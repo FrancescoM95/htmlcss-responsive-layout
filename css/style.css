@@ -27,8 +27,9 @@ iframe {
 }
 
 iframe {
-    border: none;
+    border: 0;
     width: 100%;
+    height: 100%;
 }
 
 a {
@@ -68,12 +69,6 @@ h4 {
     margin: 10px 0;
 }
 
-header {
-    background-color: #fff;
-    text-align: center;
-    font-size: 2rem;
-}
-
 address {
     font-style: normal;
 }
@@ -93,84 +88,24 @@ address {
     height: 3px;
     background-color: var(--primary-color);
     margin-bottom: 20px;
+}
 
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: '';
 }
 
 /*^ Layout */
-
-/*| ROW */
 
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.row.cols-2>.col {
-    flex-basis: calc(100% / 2);
+.col {
+    width: 100%;
 }
-
-.row.cols-3>.col {
-    flex-basis: calc(100% / 3);
-}
-
-.row.cols-4>.col {
-    flex-basis: calc(100% / 4);
-}
-
-.row.cols-5>.col {
-    flex-basis: calc(100% / 5);
-}
-
-.row.cols-6>.col {
-    flex-basis: calc(100% / 6);
-}
-
-/*| GATTER */
-/* 10 */
-.row.g-10 {
-    margin: 0 -10px;
-}
-
-.row.g-10>.col {
-    padding: 0 10px;
-}
-
-/* 20 */
-.row.g-20 {
-    margin: 0 -20px;
-}
-
-.row.g-20>.col {
-    padding: 0 20px;
-}
-
-/* 30 */
-.row.g-30 {
-    margin: 0 -30px;
-}
-
-.row.g-30>.col {
-    padding: 0 30px;
-}
-
-/* 40 */
-.row.g-40 {
-    margin: 0 -40px;
-}
-
-.row.g-40>.col {
-    padding: 0 40px;
-}
-
-/* 50 */
-.row.g-50 {
-    margin: 0 -50px;
-}
-
-.row.g-50>.col {
-    padding: 0 50px;
-}
-
 
 /*| CONTAINER */
 
@@ -180,12 +115,13 @@ address {
     padding: 20px;
 }
 
-.col {
-    width: 100%;
-}
-
 /** header  */
 
+.header {
+    background-color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
 
 /** main */
 
@@ -227,6 +163,12 @@ address {
 
 .hidden {
     display: none;
+}
+
+/*# VIDEO */
+
+.video-box {
+    height: 50vw;
 }
 
 /*# CARD */
@@ -280,18 +222,17 @@ address {
 .social {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 30px;
     margin-top: 40px;
 }
 
-.social>li>a {
+.btn {
     background-color: #fff;
     padding: 10px 15px;
+    border: 0;
     border-radius: 20px;
     box-shadow: 0 5px 10px lightgrey;
-}
-
-.banner-ad img {
-    margin-top: 30px;
 }
 
 .fab-text {
@@ -320,6 +261,10 @@ address {
 
 .fa-youtube {
     color: #FF0000;
+}
+
+.banner-ad img {
+    margin-top: 30px;
 }
 
 /*# PRESENTAZIONE */
